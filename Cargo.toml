@@ -1,0 +1,15 @@
+[package]
+name = "vredt"
+version = "0.1.0"
+edition = "2021"
+authors = ["sceext <sceext@foxmail.com>"]
+license = "MPL-2.0"
+repository = "https://github.com/vreui/vre-dt"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.vrecore]
+git = "https://github.com/vreui/vre-core.git"
+#path = "../vre-core"
+version = "0.1.0"
+features = ["dt"]
